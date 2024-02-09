@@ -23,7 +23,7 @@
 pnpm hardhat verify YOUR_CONTRACT_ADDRESS --network NETWORK --contract contracts/YOUR_CONTRACT_NAME.sol:YOUR_CONTRACT_NAME [ARGUMENTS_HERE]
 
 // Example:
-pnpm hardhat verify 0x5FbDB2315678afecb367f032d93F642f64180aa3 --network sepolia --contract contracts/SimpleEquippable.sol:SimpleEquippable 'ipfs://collectionMeta.json', 'ipfs://baseURI/' ...
+pnpm hardhat verify 0x5FbDB2315678afecb367f032d93F642f64180aa3 --network sepolia --contract contracts/KanariaBackgroundArtContest2024.sol:KanariaBackgroundArtContest2024 'ipfs://collectionMeta.json', 'ipfs://baseURI/' ...
 ```
 
 Remember to give credit to RMRK if you're using it's technology. Check the license and notice for more details.

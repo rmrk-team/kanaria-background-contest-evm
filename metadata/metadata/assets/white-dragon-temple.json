@@ -1,0 +1,16 @@
+{
+  "name": "White Dragon Temple",
+  "description": "The cosmic wind was blowing through the 5 pillars, the 4 elements and 1 special pillar for Ether. This drawing comes from a real temple where I experienced a strong wind energy flowing through the building and I visualized myself as dragon doing so.",
+  "mediaUri": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/1/main.jpg",
+  "image": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/1/main.jpg",
+  "thumbnailUri": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/1/thumb.jpg",
+  "preferThumb": true,
+  "attributes": [
+    {
+      "label": "Author",
+      "trait_type": "Author",
+      "type": "string",
+      "value": "Ruben Topia"
+    }
+  ]
+}

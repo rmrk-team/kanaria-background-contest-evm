@@ -25,7 +25,7 @@ const config: HardhatUserConfig = {
       url: process.env.MOONBASE_URL || 'https://rpc.testnet.moonbeam.network',
       chainId: 1287,
       accounts: accounts,
-      gasPrice: 1100000000,
+      gasPrice: 1200000000,
     },
     sepolia: {
       url: process.env.SEPOLIA_URL || 'https://rpc.sepolia.dev',

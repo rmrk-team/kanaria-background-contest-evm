@@ -1,0 +1,16 @@
+{
+  "name": "Olympus Kanaria",
+  "description": "Since ancient times, a society that emerged in Skybreach meets periodically on Olympus for the most important event in heaven. The owners of this NFT acquire the ability to compete once a year on the top of the highest mountain in Skybreach where the most seasoned fighters test their skills and elect a new leader. \"There can be only one\"",
+  "mediaUri": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/3/main.png",
+  "image": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/3/main.png",
+  "thumbnailUri": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/3/thumb.png",
+  "preferThumb": true,
+  "attributes": [
+    {
+      "label": "Author",
+      "trait_type": "Author",
+      "type": "string",
+      "value": "ERCARSER"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Magical forest",
+  "description": "Enter the magical forest, where ancient trees whisper secrets and ethereal light dances among the foliage. Here the magic thrives and imagination has no bounds.",
+  "mediaUri": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/2/main.png",
+  "image": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/2/main.png",
+  "thumbnailUri": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/2/thumb.png",
+  "preferThumb": true,
+  "attributes": [
+    {
+      "label": "Author",
+      "trait_type": "Author",
+      "type": "string",
+      "value": "Ksenia Shikh"
+    }
+  ]
+}
