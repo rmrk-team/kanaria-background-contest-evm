@@ -1,9 +1,9 @@
 {
   "name": "Magical forest",
   "description": "Enter the magical forest, where ancient trees whisper secrets and ethereal light dances among the foliage. Here the magic thrives and imagination has no bounds.",
-  "mediaUri": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/2/main.png",
-  "image": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/2/main.png",
-  "thumbnailUri": "ipfs://QmbeHFiv4b9bMhhsK7PirZxDiSiBfsq3GyVYVdNjQZ2qNJ/2/thumb.png",
+  "mediaUri": "ipfs://QmUYtd35AWa8nKkWj8PcN3SkgnUDPGJcteMJqfeF7ryEbe/2/main.svg",
+  "image": "ipfs://QmUYtd35AWa8nKkWj8PcN3SkgnUDPGJcteMJqfeF7ryEbe/2/main.svg",
+  "thumbnailUri": "ipfs://QmUYtd35AWa8nKkWj8PcN3SkgnUDPGJcteMJqfeF7ryEbe/2/thumb.png",
   "preferThumb": true,
   "attributes": [
     {

@@ -1,14 +1,14 @@
 export const COLLECTION_METADATA =
-  'ipfs://QmcCnBjFWJwi4FAteT8Vdbu1DyjMUW5dNqadWMjeAQhEyG/collection.json';
+  'ipfs://Qmd5zrZLfu4Ef5A4LR5fVHqhRDycE2B9AgF86RsuvDQoh6/collection.json';
 export const OWNERS = [
   '0x19a50e19fbf796a5cf7f0b7eac4055a84d06c68b',
   '0xf4911eb12ddadcbffd69f8d9a649069de4af5237',
   '0xb990a249d5fbf308a21066e9694a4a725759bf28',
 ];
 export const ASSETS_URIS = [
-  'ipfs://QmcCnBjFWJwi4FAteT8Vdbu1DyjMUW5dNqadWMjeAQhEyG/assets/white-dragon-temple.json',
-  'ipfs://QmcCnBjFWJwi4FAteT8Vdbu1DyjMUW5dNqadWMjeAQhEyG/assets/magical-forest.json',
-  'ipfs://QmcCnBjFWJwi4FAteT8Vdbu1DyjMUW5dNqadWMjeAQhEyG/assets/olympus-kanaria.json',
+  'ipfs://Qmd5zrZLfu4Ef5A4LR5fVHqhRDycE2B9AgF86RsuvDQoh6/assets/white-dragon-temple.json',
+  'ipfs://Qmd5zrZLfu4Ef5A4LR5fVHqhRDycE2B9AgF86RsuvDQoh6/assets/magical-forest.json',
+  'ipfs://Qmd5zrZLfu4Ef5A4LR5fVHqhRDycE2B9AgF86RsuvDQoh6/assets/olympus-kanaria.json',
 ];
 export const AMOUNTS = [1, 5, 20];
 
