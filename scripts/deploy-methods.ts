@@ -2,6 +2,7 @@ import { ethers, run, network } from 'hardhat';
 import { delay, isHardhatNetwork } from './utils';
 import {
   KanariaBackgroundArtContest2024,
+  MockAutoAccept,
   RMRKBulkWriter,
   RMRKCatalogImpl,
   RMRKCatalogUtils,
@@ -49,7 +50,7 @@ export async function deployContracts(): Promise<KanariaBackgroundArtContest2024
 export async function configureAndMint(
   collection: KanariaBackgroundArtContest2024,
   catalog: RMRKCatalogImpl,
-  kanariaAddress: string,
+  kanaria: MockAutoAccept,
   owners: string[],
   assetUris: string[],
   amounts: number[],
@@ -57,8 +58,6 @@ export async function configureAndMint(
   if (owners.length !== assetUris.length || owners.length !== amounts.length) {
     throw new Error('Owners, assetUris and amounts must be of the same length');
   }
-  const [deployer] = await ethers.getSigners(); // TODO: Use owner instead of deployer
-
   for (let i = 0; i < owners.length; i++) {
     const owner = owners[i];
     const assetUri = assetUris[i];
@@ -74,17 +73,18 @@ export async function configureAndMint(
     tx = await collection.setRoyaltyReceiverByAssetId(assetId, owner);
     await tx.wait();
 
-    tx = await collection.mintWithAsset(deployer.address, assetId, amounts[i]);
+    tx = await collection.mintWithAsset(owner, assetId, amounts[i]);
     await tx.wait();
     console.log(`Minted ${amounts[i]} NFTS with asset ${assetId} to ${owner}`);
   }
 
   await collection.setValidParentForEquippableGroup(
     C.EQUIPPABLE_GROUP_ID,
-    kanariaAddress,
+    await kanaria.getAddress(),
     C.BACKGROUND_SLOT_ID,
   );
   await catalog.addEquippableAddresses(C.BACKGROUND_SLOT_ID, [await collection.getAddress()]);
+  await kanaria.setAutoAcceptCollection(await collection.getAddress(), true);
 }
 
 export async function deployBulkWriter(): Promise<RMRKBulkWriter> {
